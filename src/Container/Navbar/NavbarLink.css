@@ -1,0 +1,19 @@
+.NavbarLink {
+    float: left;
+    margin: .5em auto;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color:inherit;
+}
+
+.NavbarLink a {
+    margin: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.NavbarLink a:hover, .NavbarLink:hover {
+    color: #000;
+    cursor: pointer;
+}

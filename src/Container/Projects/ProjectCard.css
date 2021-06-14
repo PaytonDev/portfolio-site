@@ -1,0 +1,70 @@
+.ProjectCard {
+    max-width: 318px;
+    min-height: 400px;
+    text-shadow: none;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+
+.ProjectCard-img {
+    max-width: 318px;
+    max-height: 180px;
+    object-fit: cover;
+}
+
+
+.ProjectCard>.card {
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+    background-color: #212223;
+    transition: all .5s ease;
+}
+
+.ProjectCard>.card:hover {
+    transform: translate3D(0,-1px,0) scale(1.03);
+    transition: all .4s ease;
+}
+
+
+.Project-icons {
+    margin-right: 1em;
+    text-decoration: none;
+    color: #d1d1d1;
+}
+
+.Project-icons:hover {
+    color: black;
+}
+
+.ProjectCard-overlay {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+
+
+.ProjectCard-body {
+    font-size: 14px;
+    padding: .5em;
+    color: #d1d1d1;
+    
+}
+
+.ProjectCard-title, .ProjectCard-subtitle {
+    padding: .25em .5em;
+    color: #d1d1d1;
+}
+
+.ProjectCard-subtitle {
+    font-size: 16px;
+}

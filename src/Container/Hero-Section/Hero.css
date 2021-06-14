@@ -1,0 +1,36 @@
+.Hero {
+    height:90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero-text p{
+    margin: 0;
+    filter: none;
+}
+
+.hero-main {
+    display: block;
+    font-size: 70px;
+}
+
+.hero-sub {
+    font-size: 48px;
+    margin-bottom: 2em;
+}
+
+.hero-social-links {
+    margin: 1rem auto;
+}
+
+.social-link {
+    margin: 0 2em;
+}
+
+.social-link svg:hover {
+    fill: #000;
+}
