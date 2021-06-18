@@ -11,11 +11,20 @@ const ContactForm = () => {
         
     return (
         <div className="ContactForm">
-            <div className="Contact-thankyou">
-                <h4>Thanks so much for visiting. <br></br>
-                Please feel free to reach out.</h4>
-            </div>
+            <div className="form-container">
             <form onSubmit={handleSubmit}>
+            <div className="ContactForm-name">
+                <label htmlFor="full-name">
+                    Full Name
+                </label>
+                 <input 
+                    type="text" 
+                    name="name" 
+                    id="full-name" 
+                    placeholder="First and Last" 
+                    required
+                />
+            </div>
             <div className="ContactForm-email">
                 <label htmlFor="email">
                     Email Address:
@@ -24,6 +33,7 @@ const ContactForm = () => {
                     type="email" 
                     id="email" 
                     name="email" 
+                    placeholder="Email" 
                 />
                 <ValidationError
                     prefix="Email"
@@ -39,7 +49,10 @@ const ContactForm = () => {
                     name="message" 
                     id="message" 
                     cols="50" 
-                    rows="5">
+                    rows="5"
+                    placeholder="Message" 
+                    >
+                        
                 </textarea>
             </div>
             <button 
@@ -48,6 +61,7 @@ const ContactForm = () => {
                 Submit
             </button>
             </form>
+            </div>
         </div>
     )
 }

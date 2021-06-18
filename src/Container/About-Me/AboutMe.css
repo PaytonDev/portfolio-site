@@ -1,10 +1,10 @@
 .AboutMe {
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     font-family: 'Oswald', sans-serif ;
     margin: 2.25em auto;
-    min-height: 500px;
-    width: 80%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     text-shadow:
@@ -19,24 +19,7 @@
 
 
 .AboutMe-header {
-    margin-top: 0;
+    margin-top: 50px;
     font-size: 48px;
     display: block;
-}
-
-.AboutMe-text {
-    margin: 0 auto;
-    max-width: 70%;
-    font-size: 24px;
-    font-family: 'Lato', sans-serif;
-}
-
-.AboutMe-text a {
-    color: black;
-    text-decoration: underline;
-}
-
-.AboutMe-text a:hover {
-    color: inherit;
-    text-decoration: underline;
 }

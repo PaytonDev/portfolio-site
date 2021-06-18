@@ -1,23 +1,24 @@
 .container {
     max-width: 1366px;
-    height: 100vh;
+    height: 100%;
     margin: 0 auto;
     filter: none;
-    padding-bottom: 50px;
+    background-color: #FDF0D5;
+    padding: 0;
   }
 
   .container div{
       filter: none;
   }
 
-.bg-image {
-    height: 100vh;
+.container-bg {
+    height: 100%;
     width: 100%;
-    margin: 0;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.3));
-    background-size: cover;
+    background: #FDF0D5;
 }
 
-.bg-blur {
-    backdrop-filter: blur(2px);
+.hero-bg {
+    background: #2D4739;
+    height: 100vh;
+    width: 100%;
 }

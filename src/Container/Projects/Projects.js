@@ -1,17 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos'
+import "aos/dist/aos.css"
 import "./Projects.css"
-import { ProjectCard } from "./ProjectCard"
+import { ProjectRow } from "./ProjectRow"
+import { Container } from 'reactstrap';
 import WalletDashboardVid from "./WalletDashboardVid.gif"
-import FieldImpHub from "./FieldImpHub.png"
-import MusicLandingPage from "./MusicLandingPage.png"
+import ImpInstallHubVid from "./ImpInstallHubVid.gif"
+import PortfolioVid from "./PortfolioVid.gif"
 
 const Projects = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000})
+    }, [])
     return (
-        <div className="Projects-container section" id="projects">
-            <p className="Projects-header">PROJECTS</p>
-            <div className="Projects">
+            <Container className="Projects-container" fluid data-aos="fade-up" id="projects">
+                <div className="Projects-text">
+                    <p className="Projects-header">Projects</p>
+                </div>
                 {projectArr.map((proj) => (
-                    <ProjectCard
+                    <ProjectRow
                         title={proj.title}
                         image={proj.image}
                         stack={proj.stack}
@@ -21,8 +28,7 @@ const Projects = () => {
                         key={proj.id}
                     />
                 ))}
-            </div>
-        </div>
+            </Container>
     )
 }
 
@@ -39,7 +45,7 @@ const projectArr = [
     {
         id: 2,
         title: 'Field Implementation Hub',
-        image: FieldImpHub,
+        image: ImpInstallHubVid,
         stack: "HTML/Bootstrap, Javascript, Python/Flask, Postgres, Google Maps API",
         desc: "At a previous job, I worked as a Field Implementation Specialist. Tired of having to look in multiple places for general info. I began building a tool to solve the problem.",
         codeLink: "https://github.com/PaytonDev/Field_Implementation_Hub",
@@ -47,12 +53,12 @@ const projectArr = [
     },
     {
         id: 3,
-        title: 'Music Artist Landing Page',
-        image: MusicLandingPage,
-        stack: "HTML/Bootstrap, CSS",
-        desc: "Landing Page for music artist, Kehlani's, single Toxic. I built this to show strong understanding of Bootstrap and flex properties as well as responsiveness testing.",
-        codeLink: "https://github.com/PaytonDev/music-landing-page",
-        siteLink: "https://paytondev.github.io/music-landing-page/"
+        title: 'My Portfolio Site',
+        image: PortfolioVid,
+        stack: "HTML/ReactStrap, CSS, React, Node.js",
+        desc: "The website you're on right now! My deeper dive into animate.css and different react tools such as react-scroll, AOS (Animate on Scroll), and Reactstrap.",
+        // codeLink: "https://github.com/PaytonDev/music-landing-page", 
+        siteLink: "https://breeanapayton.com"
     },
 ]
 

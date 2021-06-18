@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos'
+import "aos/dist/aos.css"
 import "./Skills.css"
 
 const Skills = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000})
+    }, [])
     return (
-        <div className="Skills section" id="skills">
+        <div className="Skills section" id="skills" data-aos="fade-up">
             <div className="Skills-copy">
-            <p className="Skills-header">SKILLS</p>
+            <p className="Skills-header">Skills</p>
                 <div className="Skills-icons">
                     <div className="Skills-icon" id="html-icon">
                         <svg viewBox="0 0 128 128" >

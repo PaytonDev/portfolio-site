@@ -49,6 +49,7 @@ const NavbarLinks = () => {
                     className="NavbarLink" 
                     exact='true' 
                     key='contact'
+                    offset={-50}
                 >
                     Contact
                 </Link>

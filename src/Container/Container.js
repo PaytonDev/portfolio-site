@@ -10,21 +10,22 @@ import { Contact } from './Contact/Contact'
 const Container = () => {
     return (
         <>
-            <div className="bg-image">
-                <div className="bg-blur">
-                    <div className='container'>
-                        <Navbar />
-                        <Hero />
-                        <AboutMe />
-                        <hr/>
-                        <Skills />
-                        <hr />
-                        <Projects />
-                        <hr />
-                        <Contact />
-                    </div>
+            <Navbar />
+            <div className="hero-bg">
+                <Hero />
+            </div>
+            <div className="container-bg">
+                <div className='container'>
+                    <AboutMe />
+                    <hr/>
+                    <Skills />
+                    <hr />
+                    <Projects />
+                    <hr />
+                    <Contact />
                 </div>
             </div>
+            
         </>
     )
 }
