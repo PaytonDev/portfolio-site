@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 200;
     color: #FDF0D5;
 }
@@ -47,7 +47,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 60%;
+    width: 70%;
     height: 50%;
     border-right: 2px solid rgba(253, 240, 213, 0.705);
     padding: 30px;
@@ -60,16 +60,14 @@
 
 .hero-main {
     display: block;
-    font-size: 70px;
+    font-size: 100px;
+    font-weight: bold
 }
 
 .hero-sub {
-    font-size: 48px;
+    font-size: 70px;
     margin-bottom: 2em;
-}
-
-.hero-social-links {
-    margin: 1rem 0;
+    font-weight: 600;
 }
 
 .social-link {
@@ -104,8 +102,20 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    height: 80%;
+    margin-top: 50px;
+    height: 75%;
     max-width: 1650px;
+    background: rgba(231, 231, 231, 0.2);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.hero-copy {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 .Hero footer {

@@ -17,7 +17,7 @@ const Container = () => {
             <div className="container-bg">
                 <div className='container'>
                     <AboutMe />
-                    <hr/>
+                    <hr />
                     <Skills />
                     <hr />
                     <Projects />
