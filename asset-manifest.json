@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d41d45ed.chunk.css",
-    "main.js": "/static/js/main.62c6d44b.chunk.js",
-    "main.js.map": "/static/js/main.62c6d44b.chunk.js.map",
+    "main.css": "/static/css/main.22f37b0c.chunk.css",
+    "main.js": "/static/js/main.037d0591.chunk.js",
+    "main.js.map": "/static/js/main.037d0591.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b79af1ca.js",
     "runtime-main.js.map": "/static/js/runtime-main.b79af1ca.js.map",
     "static/css/2.c5936e5b.chunk.css": "/static/css/2.c5936e5b.chunk.css",
@@ -10,10 +10,11 @@
     "static/js/2.ad0ddd03.chunk.js.map": "/static/js/2.ad0ddd03.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.c5936e5b.chunk.css.map": "/static/css/2.c5936e5b.chunk.css.map",
-    "static/css/main.d41d45ed.chunk.css.map": "/static/css/main.d41d45ed.chunk.css.map",
+    "static/css/main.22f37b0c.chunk.css.map": "/static/css/main.22f37b0c.chunk.css.map",
     "static/js/2.ad0ddd03.chunk.js.LICENSE.txt": "/static/js/2.ad0ddd03.chunk.js.LICENSE.txt",
+    "static/media/Container.css": "/static/media/HeroDesk.b36ece67.jpg",
     "static/media/ImpInstallHubVid.6cc85d67.gif": "/static/media/ImpInstallHubVid.6cc85d67.gif",
-    "static/media/PortfolioVid.ee13caaa.gif": "/static/media/PortfolioVid.ee13caaa.gif",
+    "static/media/PortfolioNew.01736a9c.gif": "/static/media/PortfolioNew.01736a9c.gif",
     "static/media/WalletDashboardVid.49c986af.gif": "/static/media/WalletDashboardVid.49c986af.gif",
     "static/media/chart.9b8139b9.svg": "/static/media/chart.9b8139b9.svg",
     "static/media/install.6872b6b9.svg": "/static/media/install.6872b6b9.svg",
@@ -24,7 +25,7 @@
     "static/js/runtime-main.b79af1ca.js",
     "static/css/2.c5936e5b.chunk.css",
     "static/js/2.ad0ddd03.chunk.js",
-    "static/css/main.d41d45ed.chunk.css",
-    "static/js/main.62c6d44b.chunk.js"
+    "static/css/main.22f37b0c.chunk.css",
+    "static/js/main.037d0591.chunk.js"
   ]
 }
