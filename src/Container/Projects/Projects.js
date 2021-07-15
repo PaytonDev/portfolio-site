@@ -6,7 +6,7 @@ import { ProjectRow } from "./ProjectRow"
 import { Container } from 'reactstrap';
 import WalletDashboardVid from "./WalletDashboardVid.gif"
 import ImpInstallHubVid from "./ImpInstallHubVid.gif"
-import PortfolioVid from "./PortfolioVid.gif"
+import PortfolioNewVid from "./PortfolioNew.gif"
 
 const Projects = () => {
     useEffect(() => {
@@ -54,7 +54,7 @@ const projectArr = [
     {
         id: 3,
         title: 'My Portfolio Site',
-        image: PortfolioVid,
+        image: PortfolioNewVid,
         stack: "HTML/ReactStrap, CSS, React, Node.js",
         desc: "The website you're on right now! My deeper dive into animate.css and different react tools such as react-scroll, AOS (Animate on Scroll), and Reactstrap.",
         // codeLink: "https://github.com/PaytonDev/music-landing-page", 

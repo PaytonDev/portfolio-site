@@ -3,22 +3,27 @@
     height: 100%;
     margin: 0 auto;
     filter: none;
-    background-color: #FDF0D5;
+    background-color: #DEA067;
     padding: 0;
   }
 
-  .container div{
+.container div{
       filter: none;
   }
 
 .container-bg {
     height: 100%;
     width: 100%;
-    background: #FDF0D5;
+    background: #DEA067;
 }
 
 .hero-bg {
-    background: #2D4739;
+    background: url(./HeroDesk.jpg);
+    filter: brightness(90%);
     height: 100vh;
+    width: 100%;
+}
+
+hr {
     width: 100%;
 }

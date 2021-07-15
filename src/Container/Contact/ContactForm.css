@@ -3,9 +3,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 80%;
+    height: 100%;
     width: 80%;
-    color: #2D4739;
+    color: #dea067;
 }
 
 .form-container {
@@ -28,7 +28,8 @@
 
 
 .ContactForm button {
-    background: #2D4739;
+    background: #212529;
+    color: #dea067;
     border: none;
     border-radius: 5px;
     width: 100%;
@@ -51,7 +52,7 @@
 .ContactForm-email input, .ContactForm-message textarea, .ContactForm-name input{
     border: none;
     text-decoration: none;
-    border-bottom: 2px solid #2D4739;
+    border-bottom: 2px solid #212529;
     background: transparent;
     padding: .25em .5em;
     width: 100%;
