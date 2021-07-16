@@ -1,19 +1,22 @@
 .NavbarLink {
     float: left;
-    margin: .5em auto;
+    margin: .25em auto;
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
     color: #dea067;
 }
 
-.NavbarLink a {
+a.NavbarLink {
     margin: none;
     text-decoration: none;
-    color: inherit;
+    color: #dea067 !important;
 }
 
-.NavbarLink a:hover, .NavbarLink:hover {
-    color: #000;
-    cursor: pointer;
+a.NavbarLink:hover {
+    color: #000 !important;
+    cursor: pointer !important;
 }
+
+
+

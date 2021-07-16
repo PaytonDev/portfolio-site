@@ -1,9 +1,9 @@
-.AboutMeFacts-container{
+.AboutMeFacts-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 80%;
     width: 100%
 
 }
@@ -33,7 +33,7 @@
 
 .AboutMe-fact svg {
     max-width: 150px;
-    max-height: 200px;
+    max-height: 150px;
 }
 
 .AboutMe-fact div {
@@ -58,14 +58,17 @@
     }
 
     .AboutMe-fact svg {
-        max-height: 150px;
+        max-height: 200px;
     }
 
     .fact-text {
         font-size: 14px;
     }
 
-
 }
 
-
+@media screen and (max-width: 780px){
+    .AboutMe-fact svg {
+        display: none;
+    }
+}
