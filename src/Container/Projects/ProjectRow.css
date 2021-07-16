@@ -92,13 +92,20 @@
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 525px) {
     .ProjectRow {
         height: 45vh;
     }
 
+    .ProjectRow-title {
+        font-size: 28px;
+    }
+
     .ProjectRow-body {
         font-size: 14px;
-        
+    }
+
+    .ProjectRow-subtitle {
+        font-size: 14px;
     }
 }

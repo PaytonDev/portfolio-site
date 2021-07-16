@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar } from "./Navbar/Navbar"
+import { NavbarContainer } from './Navbar/Navbar'
 import { Hero } from "./Hero-Section/Hero"
 import "./Container.css"
 import { AboutMe } from './About-Me/AboutMe'
@@ -10,7 +10,7 @@ import { Contact } from './Contact/Contact'
 const Container = () => {
     return (
         <>
-            <Navbar />
+            <NavbarContainer />
             <div className="hero-bg">
                 <Hero />
             </div>
