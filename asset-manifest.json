@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.2a865b7c.chunk.css",
-    "main.js": "/static/js/main.12cfd569.chunk.js",
-    "main.js.map": "/static/js/main.12cfd569.chunk.js.map",
+    "main.js": "/static/js/main.d2ad3cbd.chunk.js",
+    "main.js.map": "/static/js/main.d2ad3cbd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b79af1ca.js",
     "runtime-main.js.map": "/static/js/runtime-main.b79af1ca.js.map",
     "static/css/2.57c5096a.chunk.css": "/static/css/2.57c5096a.chunk.css",
@@ -15,7 +15,7 @@
     "static/media/Container.css": "/static/media/HeroDesk.b36ece67.jpg",
     "static/media/ImpInstallHubVid.6cc85d67.gif": "/static/media/ImpInstallHubVid.6cc85d67.gif",
     "static/media/PortfolioNew.01736a9c.gif": "/static/media/PortfolioNew.01736a9c.gif",
-    "static/media/WalletDashboardVid.49c986af.gif": "/static/media/WalletDashboardVid.49c986af.gif",
+    "static/media/Spotify-Shop-Demo1.40cea018.gif": "/static/media/Spotify-Shop-Demo1.40cea018.gif",
     "static/media/chart.9b8139b9.svg": "/static/media/chart.9b8139b9.svg",
     "static/media/install.6872b6b9.svg": "/static/media/install.6872b6b9.svg",
     "static/media/music.70550962.svg": "/static/media/music.70550962.svg",
@@ -26,6 +26,6 @@
     "static/css/2.57c5096a.chunk.css",
     "static/js/2.91ae5d9b.chunk.js",
     "static/css/main.2a865b7c.chunk.css",
-    "static/js/main.12cfd569.chunk.js"
+    "static/js/main.d2ad3cbd.chunk.js"
   ]
 }
