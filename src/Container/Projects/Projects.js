@@ -4,9 +4,9 @@ import "aos/dist/aos.css"
 import "./Projects.css"
 import { ProjectRow } from "./ProjectRow"
 import { Container } from 'reactstrap';
-import WalletDashboardVid from "./WalletDashboardVid.gif"
 import ImpInstallHubVid from "./ImpInstallHubVid.gif"
 import PortfolioNewVid from "./PortfolioNew.gif"
+import SpotifyShopVid from "./Spotify-Shop-Demo1.gif"
 
 const Projects = () => {
     useEffect(() => {
@@ -35,12 +35,12 @@ const Projects = () => {
 const projectArr = [
     {
         id: 1,
-        title: 'Wallet Dashboard',
-        image: WalletDashboardVid,
-        stack: "React, Reactstrap, CSS, Chart.js",
-        desc: "A dashboard to showcase and track a musician's various incomes.",
-        codeLink: "https://github.com/PaytonDev/Wallet-Dashboard",
-        siteLink: "https://paytondev.github.io/Wallet-Dashboard/"
+        title: 'Spotify Shop',
+        image: SpotifyShopVid,
+        stack: "React Native, TypeScript, GraphQL, AWS Amplify",
+        desc: "A React Native Spotify clone with a screen for eCommerce for a user's top 10 favorite artists.",
+        codeLink: "https://github.com/PaytonDev/spotify-shop",
+        siteLink: null
     },
     {
         id: 2,
@@ -57,7 +57,7 @@ const projectArr = [
         image: PortfolioNewVid,
         stack: "HTML/ReactStrap, CSS, React, Node.js",
         desc: "The website you're on right now! My deeper dive into animate.css and different react tools such as react-scroll, AOS (Animate on Scroll), and Reactstrap.",
-        // codeLink: "https://github.com/PaytonDev/music-landing-page", 
+        codeLink: "https://github.com/PaytonDev/portfolio-site", 
         siteLink: "https://breeanapayton.com"
     },
 ]
