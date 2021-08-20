@@ -26,7 +26,7 @@ const links = [
     {
     id: "resume",
     name: "Resume",
-    path: 'https://docs.google.com/document/d/1SgLPZmhQmgbMM05Ic4K9zIJTSEXhyi3qgkVWoZa5Bwg/edit?usp=sharing'
+    path: 'https://drive.google.com/file/d/12Uk9sbmSeSTwWO21z15WSxIUhwWuVVKx/view?usp=sharing'
     },
     {
     id: "projects",
