@@ -2,7 +2,7 @@
   "name": "breeana-payton-portfolio-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://breeanapayton.com",
+  "homepage": "https://breeanapayton.com",
   "dependencies": {
     "@formspree/react": "^2.2.3",
     "@testing-library/jest-dom": "^5.11.4",
